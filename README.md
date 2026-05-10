@@ -1,4 +1,4 @@
-# Mirage Mirror (dev1)
+# Mirage Mirror
 
 FFXIV (Dalamud) 用のミラプリ管理プラグインです。
 
