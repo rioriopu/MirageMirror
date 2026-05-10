@@ -2,17 +2,19 @@
 
 FFXIV (Dalamud) 用のミラプリ管理プラグインです。
 
-> dev1 リリース版。動作確認・フィードバック歓迎。
+> **テスト配信中**。フィードバック歓迎 / 不具合の可能性あり。
 
 ## インストール
 
 1. XIVLauncher (Dalamud) で `/xlsettings` を開く
 2. **「実験的」(Experimental)** タブを開く
-3. **「カスタムプラグインリポジトリ」** に下記 URL を追加して **「保存」**:
+3. **「テスト中の DEV プラグインも取得する」** (Get plugin testing builds) のチェックを **ON** にする
+   - Mirage Mirror は現在テスト版として配信されているため、これを有効にしないとリストに出ません
+4. **「カスタムプラグインリポジトリ」** に下記 URL を追加して **「保存」**:
    ```
    https://raw.githubusercontent.com/rioriopu/MirageMirror/main/repo.json
    ```
-4. プラグインインストーラを開き直す → **「Mirage Mirror (dev1)」** を検索 → インストール
+5. プラグインインストーラを開き直す → **「Mirage Mirror」** を検索 → インストール
 
 ## 使い方
 
