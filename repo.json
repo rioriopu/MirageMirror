@@ -1,10 +1,10 @@
-[
+﻿[
   {
     "Name": "Mirage Mirror",
     "InternalName": "MirageMirror",
     "Author": "Wh1s",
-    "AssemblyVersion": "0.1.1.2",
-    "TestingAssemblyVersion": "0.1.1.2",
+    "AssemblyVersion": "0.1.1.3",
+    "TestingAssemblyVersion": "0.1.1.3",
     "RepoUrl": "https://github.com/rioriopu/MirageMirror",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -15,7 +15,7 @@
     "Description": "Mirage Mirror は 自分好みのミラプリを取り込み、キャラクターに反映させることができるプラグインです。（クライアント側表示のため自身の中でミラプリを楽しめる！）\n他人のミラプリやサイト上のミラプリを自身でも使ってみたい or カスタムしたいという方におすすめのプラグインです。\n\n機能:\n- ターゲットプレイヤーの装備を視覚スキャンしてアイテム特定\n- mirapri / Eorzea Collection の URL からミラプリ構成を取り込み\n- 取り込み結果を「着てみる」 (ローカルプレビュー) で試着\n- お気に入り保存機能でいつでも取り込み内容を呼び出し可能\n- Glamourer連携対応\n\nコマンド:\n/miragemirror 設定画面の呼び出し。以下短縮コマンドとなります。\n/mmirror\n/mmr",
     "IconUrl": "https://raw.githubusercontent.com/rioriopu/MirageMirror/main/icon.png",
     "ImageUrls": [],
-    "Changelog": "Betaバージョンをリリースしました。\n- 多くの不具合修正、機能追加を実施しました。\n- また、テストにご協力頂きましたヌル様、ありがとうございます。",
+    "Changelog": "0.1.1.3: 「未所持」誤判定の切り分け強化。\n- ステータスバーに各カテゴリの所持件数 (バッグ / アーマリー / 装備中 / ドレッサー / キャビネット / カバン / リテイナー) を表示\n- /mmirror diag コマンドで詳細な所持状況・キャッシュ状態を Chat に出力\n- /mmirror loaddresser でドレッサーを強制ロード\n- 「未所持」表示時の tooltip に snapshot 状態 (ドレッサー未ロード / ItemId 不一致) を表示",
     "DownloadLinkInstall": "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
     "DownloadLinkUpdate":  "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
     "DownloadLinkTesting": "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
